@@ -32,7 +32,12 @@
         "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
         "required": true
       },
-      "OWNER_ID": {
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "karolin",
+        "required": true,
+    },
+       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
         "value": "",
         "required": true

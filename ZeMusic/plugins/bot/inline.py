@@ -51,7 +51,9 @@ async def inline_query_handler(client, query):
 ⏰ <b>بواسطـة :</b> {published}
 
 
-<u><b>➻ تم البحث انلايـن بواسطـة {app.name}</b></u>"""
+<u><b>➻ تم البحث انلايـن بواسطـة {app.name}</b></u>
+
+مطور وكاتب السورس @tFFF_F """
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
